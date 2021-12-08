@@ -1,0 +1,70 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+.main {
+    background: url(../img/bg.jpg) center no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+#like{  
+    background:rgba(255, 129, 171, 0.158);
+    font-size: 30px;
+    border: none;
+    border-radius: 100%;
+}
+
+#like:hover{
+    background:rgb(255, 173, 210);
+}
+
+
+
+.footer{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    bottom: 0;
+}
+
+a{
+    color:black;
+    font-size: 25px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+
+nav a:hover{
+ border-bottom: 3px solid rgba(153, 153, 153, 0.336);
+
+}
+.social img{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 30px;
+    height: 50px;
+    transition: all 0.2s linear;
+}
+.social img:hover{
+    background: rgba(95, 95, 95, 0.336);
+    border-radius: 30%;
+}
+
+.date{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-size: 26px;
+    font-weight: 700;
+}
